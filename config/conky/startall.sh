@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# Author : thejackal
 
 # Let the desktop load for a few seconds before running
 sleep 5
@@ -11,8 +12,7 @@ killall conky
 
 
 # Starting all  conky widgets.
-##conky -c ~/.config/conky/conkyrc &
-##conky -c ~/.config/conky/conky_thejackal_L.conf &
+conky -c ~/.config/conky/conky_thejackal_L.conf &
 conky -c ~/.config/conky/conky_thejackal_M.conf &
 ##conky -c ~/.config/conky/conky_thejackal_Calendario.conf &
 conky -c ~/.config/conky/conky_thejackal_R.conf &
